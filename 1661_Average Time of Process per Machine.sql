@@ -10,3 +10,5 @@ SELECT machine_id,
        ROUND(AVG(process_time), 3) AS processing_time
 FROM ProcessTimes
 GROUP BY machine_id;
+
+
